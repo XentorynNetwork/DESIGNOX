@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://designox-cafe-goldjunge.vercel.app/sitemap.xml
