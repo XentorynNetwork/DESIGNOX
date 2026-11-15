@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/demos/cafe-goldjunge/index.html" },
+    { "source": "/(.*)", "destination": "/demos/cafe-goldjunge/$1" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
+    },
+    {
+      "source": "/(img|fonts|demos/cafe-goldjunge/img|demos/cafe-goldjunge/fonts)/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
+    }
+  ]
+}
