@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://designox-waxman-friseure.vercel.app/sitemap.xml
