@@ -1,7 +1,15 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/demos/cafe-goldjunge/index.html" },
-    { "source": "/(.*)", "destination": "/demos/cafe-goldjunge/$1" }
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "designox-waxman-friseure.vercel.app" }],
+      "destination": "/demos/waxman-friseure/index.html"
+    },
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "designox-waxman-friseure.vercel.app" }],
+      "destination": "/demos/waxman-friseure/$1"
+    }
   ],
   "headers": [
     {
@@ -9,7 +17,7 @@
       "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }]
     },
     {
-      "source": "/(img|fonts|demos/cafe-goldjunge/img|demos/cafe-goldjunge/fonts)/(.*)",
+      "source": "/(img|fonts|demos/[^/]+/img|demos/[^/]+/fonts)/(.*)",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }]
     }
   ]
