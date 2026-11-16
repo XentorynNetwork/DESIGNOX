@@ -9,9 +9,7 @@
       "source": "/(.*)",
       "has": [{ "type": "host", "value": "designox-waxman-friseure.vercel.app" }],
       "destination": "/demos/waxman-friseure/$1"
-    },
-    { "source": "/", "destination": "/demos/cafe-goldjunge/index.html" },
-    { "source": "/(.*)", "destination": "/demos/cafe-goldjunge/$1" }
+    }
   ],
   "headers": [
     {
