@@ -20,4 +20,5 @@ Die Demo ist absichtlich als Entwurf markiert und nicht für Suchmaschinen freig
 - Der Hinweisbalken `demo-note` steht in `index.html`, `impressum.html` und `datenschutz.html`. Für die echte Seite entfernen.
 - Canonical, Open Graph, `robots.txt` und `sitemap.xml` zeigen auf die `*.vercel.app`-Adresse. Durch `https://www.waxman-friseure.de` ersetzen (die Domain ist schon registriert).
 - Die Preise stammen von einem Foto der Preistafel im Salon und müssen vom Betrieb bestätigt werden.
+- Alle Fotos sind CC0-Platzhalter (Liste in `demos/waxman-friseure/img/CREDITS.md`) und zeigen nicht den Salon. Vor dem Livegang durch eigene Fotos des Betriebs ersetzen und den Satz „Alle Fotos sind Platzhalter“ entfernen.
 - Impressum und Datenschutz enthalten gelb markierte Platzhalter, die der Betrieb ausfüllt.
